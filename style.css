@@ -1,37 +1,33 @@
-body {
+body, html {
   background: url("./pictures/topography.png");
   height: 100%;
-  margin: 0;
-  padding: 0;
-  /*position: relative;*/
+  margin: 0px;
 }
 
 #nav-wrapper {
   height: 4em;
-  background-color: #4E6B66;
+  background-color: #e7e7e7;
 }
 
 #head-pic {
+  background-image: url("./pictures/ski.jpg");
   height: 100%;
-}
-
-.ski-img {
-  width: 100%;
-  align-content: center;
-  position: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-button {
-    background-color: #4E6B66;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 7px;
-    margin-left: 7px;
+  background-color: #e7e7e7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 7px;
+  margin-left: 7px;
 }
 
 h1 {
@@ -39,6 +35,7 @@ h1 {
   text-align: center;
   font-size: 4rem;
   margin-bottom: 30px;
+  text-decoration: underline;
 }
 
 #name {
@@ -104,7 +101,7 @@ h3 {
 #pic-div {
   width: 30%;
   float: right;
-  height: 100%;
+  height: 40%;
 }
 
 #page2-head {
@@ -112,29 +109,50 @@ h3 {
   line-height: 2rem;
 }
 
-#pony-gif {
-  height: 300px;
-  width: 300px;
+/*#pony-gif {
+  height: 400px;
+  width: 400px;
   align-items: center;
-  background: url('./pictures/pony-screenshot.png');
+  background: url('./pictures/mini-pony.gif');
   margin: auto;
+  background-size: cover;
 }
 
 #pony-gif:hover {
   height: 400px;
   width: 400px;
   cursor: pointer;
-  background: url('./pictures/mini-pony.gif');
-}
+  background: url('./pictures/pony-screenshot.png');
+  background-size: cover;
+  }*/
 
-/*
+/*img {
+  display: none;
+}*/
+
 .go-back-button {
-
+  background-color: #D3D3D3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
 }
 
 .contact-button {
-
-}*/
+  background-color: #D3D3D3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
 
 #contact-div {
   margin-top: 15%;
@@ -145,8 +163,6 @@ h3 {
   line-height: 2em;
   border-style: solid;
   border-width: thin;
-
-
 }
 
 .phone-img {
@@ -159,5 +175,18 @@ h3 {
   height: 30px;
   width: 25px;
   padding-right: 10px;
-
 }
+
+.contact-back-btn {
+  margin-left: 45%;
+  margin-top: 5%;
+  background-color: #e7e7e7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  }
