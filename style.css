@@ -109,27 +109,6 @@ h3 {
   line-height: 2rem;
 }
 
-/*#pony-gif {
-  height: 400px;
-  width: 400px;
-  align-items: center;
-  background: url('./pictures/mini-pony.gif');
-  margin: auto;
-  background-size: cover;
-}
-
-#pony-gif:hover {
-  height: 400px;
-  width: 400px;
-  cursor: pointer;
-  background: url('./pictures/pony-screenshot.png');
-  background-size: cover;
-  }*/
-
-/*img {
-  display: none;
-}*/
-
 .go-back-button {
   background-color: #D3D3D3;
   border: none;
